@@ -72,7 +72,7 @@ main {
   border-radius: 5px;
   padding-left: 50px;
   background-color: var(--white);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: none;
   font-size: 16px;
 }
@@ -81,11 +81,13 @@ select {
   outline: none;
   border: none;
   background-color: var(--white);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 50px;
   padding: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  color: var(--dark-gray);
   border-right: 10px solid var(--white);
-  color: var(--very-dark-blue);
   cursor: pointer;
   font-size: 15px;
 }
@@ -104,7 +106,7 @@ select {
   background-color: var(--white);
   text-decoration: none;
   color: var(--very-dark-blue);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   cursor: pointer;
@@ -149,7 +151,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 60px;
+  margin: 60px 0;
   gap: 100px;
 }
 
@@ -163,13 +165,13 @@ select {
 
 .flag-container img {
   width: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn-back {
   display: flex;
   align-items: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 125px;
   margin-bottom: 70px;
   padding: 10px 30px;
@@ -209,7 +211,7 @@ select {
 }
 
 .border-countries .btn-border {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px 20px;
   transition: all 300ms ease-in-out;
   color: var(--very-dark-blue);
