@@ -86,7 +86,7 @@ select {
   padding: 10px;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
-  color: var(--dark-gray);
+  color: var(--very-dark-blue);
   border-right: 10px solid var(--white);
   cursor: pointer;
   font-size: 15px;
@@ -269,10 +269,13 @@ select {
 
   .filter-container input {
     width: 100%;
+    border: 2px solid #ccc;
   }
 
   select {
     width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
   }
 
   .filter-container input + i {
